@@ -7,12 +7,11 @@
 ## 🌐 Features
 
 | Feature                                     | Description                                                                                                                                  |
-| ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Multi-Server Chat**                       | Connect multiple clients to multiple servers. Clients can join any server running the chat application, enabling cross-server communication. |
+| ------------------------------------------- | ------------------------------------------------------------------
 | **OpenAI Integration**                      | Each server can run `robot.py` to provide AI responses. Users can chat with the AI as if it were a regular participant.                      |
 | **Quit Chat `!q`**                          | Safely exit the chat. Sends a “left the chat” message to the server before closing the client.                                               |
 | **Ping Command `/ping <ip>`**               | Check if a specific IP is reachable via ICMP ping. Runs locally and does not broadcast messages to the server.                               |
-| **Join Another Server `/join <server_ip>`** | Switch to a different server by updating the destination IP. Sends a “JOINED THE SERVER” notification to the new server.                     |
+| **Join Another Server `/join <server_ip>`** | Switch to a different server by updating the destination IP. Server sends a “JOINED THE SERVER” notification to the client.                     |
 
 ---
 
@@ -70,6 +69,4 @@ The following diagram illustrates the network setup used in our class demo:
    * Ping: `/ping <ip>`
    * Join server: `/join <server_ip>`
 
-![ChatGPT Image Dec 16, 2025, 01_03_22 PM](https://github.com/user-attachments/assets/5b68f702-c6d7-409c-a2cb-fecd0b6700ca)
-
-The image above uses same IPs and topology we used in class for our demo. THANK YOU FOR YOUR ATTENTION AND ENJOY!
+THANK YOU FOR YOUR ATTENTION AND ENJOY!
